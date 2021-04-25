@@ -1,0 +1,112 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.all-cards{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 6px;
+    background-color: chocolate;
+    height: 350px;
+}
+
+.orange-card{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 6px 0 0 6px;
+}
+
+.blue-card{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+
+.green-card{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 6px 6px 0;
+}
+
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.details{
+    font-size: 0.7rem;
+    opacity: 70%;
+    color: white;
+    width: 75%;
+    line-height: 18px;
+    margin: 0;
+}
+
+.learn-more button{
+    outline: 0;
+    border:0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: .7rem;
+    position: relative;
+    top: 20px;
+}
+
+.lm1 button{
+    color:hsl(31, 77%, 52%);
+}
+
+.lm2 button{
+    color:hsl(184, 100%, 22%);
+}
+
+.lm3 button{
+    color:hsl(179, 100%, 13%);
+}
+
+.content{
+    margin-left: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+.icon img{
+    width: 50px;
+}
+
+.learn-more button:active{
+    border: 1.5px solid white;
+    color: white;
+    padding: 8.5px 18.5px;
+}
+
+.lm1 button:active{
+    background-color:hsl(31, 77%, 52%);
+}
+
+.lm2 button:active{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.lm3 button:active{
+    background-color:hsl(179, 100%, 13%);
+}
